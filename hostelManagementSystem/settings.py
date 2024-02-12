@@ -87,11 +87,11 @@ WSGI_APPLICATION = 'hostelManagementSystem.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'HostelData',
+        'NAME': 'hosteldata',
         'USER': 'omkar',
         'PASSWORD': 'omkar@123',
         'HOST': 'localhost',
-        'PORT': '5433',
+        'PORT': '5432',
         }
     }
 
